@@ -1,6 +1,6 @@
 ---
 - name: playbook for deployment
-  hosts: all
+  hosts: webserver
   become: yes
   tasks:
     - name: installing tomcat
